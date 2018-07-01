@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/crajcan/HowDoIVote/issues"
   },
-  "homepage": "https://github.com/crajcan/HowDoIVote#readme"
+  "homepage": "https://github.com/crajcan/HowDoIVote#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
