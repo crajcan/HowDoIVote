@@ -1,5 +1,6 @@
 'use strict';
+html = require('../components/html');
 
-exports.home = function(req, res) {
-  res.send("Hello World!");
+exports.root = function(req, res) {
+  res.send(html.render(req.params));
 };
