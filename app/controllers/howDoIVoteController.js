@@ -1,6 +1,6 @@
 'use strict';
-html = require('../components/html');
+var application = require('../components/application.js');
 
 exports.root = function(req, res) {
-  res.send(html.render(req.params));
+  res.send(application.render(req.params));
 };
