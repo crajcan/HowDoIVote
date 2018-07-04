@@ -1,5 +1,7 @@
 'use strict';
+var header = require('./header/header.js');
 
 exports.render = function(params) {
-  return(`<h2>this is the h2</h2>`);
+  return(`${header.render()}
+          <h3>Enter your </h3>`);
 };
