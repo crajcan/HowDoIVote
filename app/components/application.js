@@ -4,6 +4,6 @@ var body = require('./body/body.js');
 
 exports.render = function(params) {
   return `<!DOCTYPE html>
-          ${head.render()}
+          ${head.render(body.style())}
           ${body.render()}`;
 };
