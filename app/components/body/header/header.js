@@ -2,7 +2,7 @@
 
 exports.render = function(params) {
   return(`<header>
-            <h1 class="app-name">How Do I Vote?</h1>
+            <h1 class="app-name">Where Do I Vote?</h1>
           </header>`);
 };
 

@@ -1,6 +1,6 @@
 'use strict';
-var header  = require('./header/header.js');
-var matCard = require('./matCard/matCard.js');
+const header  = require('./header/header.js');
+const matCard = require('./matCard/matCard.js');
 
 exports.render = function(params) {
   return(`<body>

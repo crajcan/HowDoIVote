@@ -1,9 +1,12 @@
 'use_strict';
+const queryForm = require('./queryForm/queryForm');
 
 exports.render = function(params) {
   return(`<div class="mat-card"> 
-            <h3>Are You Registered?<h3>
+            <h3>Whats Your Address?</h3>
+            ${queryForm.render()}
           </div>`);
+            //Don't know where, or if you're registered?
 };
 
 exports.style = function() {
@@ -15,5 +18,6 @@ exports.style = function() {
             text-align: center;
             max-width: 678px;
           }
+          ${queryForm.style()}
          `);
 };
